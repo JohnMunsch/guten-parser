@@ -1,5 +1,5 @@
 # Gutenparser
-*Project written to parse Project Gutenberg books for injesting in to elasticsearch and other text analysis tools*
+*Project written to parse Project Gutenberg books to json for injesting in to elasticsearch and other text analysis tools*
 
 ## This is not production code
 
