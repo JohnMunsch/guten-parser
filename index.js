@@ -2,7 +2,6 @@ var GutenParser;
     
 GutenParser = (function(){
 
-
     const fs = require('graceful-fs');
     const async = require('async');
     const _ = require('lodash');
@@ -25,7 +24,8 @@ GutenParser = (function(){
       {
         level: 'error',
         path: './logs/guten-parser-error.log',  // log ERROR and above to a file
-        stream: process.stdout
+        count: 3,
+        period: '1d'
       }
     ]});
 
@@ -36,15 +36,29 @@ GutenParser = (function(){
                 },
                 text: function(cb){
                     txtParser.clean(item.txt, cb);
+                },
+                buildPath: function(cb){
+                    if(item.buildPath){
+                        cb(null, item.buildPath);
+                    } else { 
+                        cb(null, null);
+                    }
                 }
         },
         function(err, result) {
-            var json = result.metadata;   //flatten a bit
-            json.wordcount = (result.text.length >= 10 ? wordcount(result.text) : 0); // add worcount
-            json.text = result.text;
-            if(item.buildPath){json.buildPath = item.buildPath}; //tack on buildpath if needed
-            return callback(err, json);
+            return callback(err, result);
         });
+    };
+
+    function _flatten(result, callback){
+        var json = {};
+        json = result.metadata;   //flatten a bit
+        json.text = (result.text ? result.text : '');
+        json.buildPath = result.buildPath;
+        json.wordcount = (json.text.length >= 10 ? wordcount(json.text) : 0); // add worcount
+        if(json.wordcount <= 400){log.error({ title:json.title, id:json.id, author:json.author, count:json.wordcount, msg:'TEXT TOO SHORT'})};
+        if(json.title == undefined){log.error({ title:undefined, author:json.author, id:json.id, msg:'NO TITLE'})};
+        callback(null, json);
     };
 
     function _saveFile(json, callback){
@@ -52,9 +66,6 @@ GutenParser = (function(){
         delete json[buildPath]; //cleanup
         fs.writeFile(buildPath, JSON.stringify(json, null, 4), 'utf8', (err) => {
             console.log('SUCCESSFUL WRITE TO FILE: '+json.id);
-
-            if(json.wordcount <= 400){log.error({ title:json.title, id:json.id, author:json.author, count:json.wordcount, msg:'TEXT TOO SHORT'})};
-            if(json.title == undefined){log.error({ title:undefined, author:json.author, id:json.id, msg:'NO TITLE'})};
             log.info({PARSED:{ title:json.title, author:json.author, id:json.id, count:json.wordcount, msg:'SUCCESS'} });
 
             callback(err);
@@ -65,9 +76,10 @@ GutenParser = (function(){
         async.waterfall([
             function(callback) {callback(null, item)},
             getJson,
+            _flatten,
             _saveFile
         ],callback);
-    }, 6);
+    }, 5);
 
 
     function recursive(srcPath, buildPath, callback){
@@ -123,7 +135,7 @@ GutenParser = (function(){
                 });
             }],
             processFiles: ['mapFiles', function(callback, results){
-                console.log('Processing Files')
+                console.log('Processing Files');
                 async.each(results.mapFiles, _processQ.push, function(err){
                     callback(err);
                 });
@@ -133,11 +145,6 @@ GutenParser = (function(){
             callback(err);
         });
     };
-
-    _processQ.drain = function() {
-        console.log('all items have been processed');
-    }
-
 
 
     return { 
