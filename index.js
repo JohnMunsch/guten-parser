@@ -160,7 +160,7 @@ GutenParser.item(object, function(err){
 });
 */
 
-var srcPath = './books/';
+var srcPath = './cache/';
 var buildPath = './json/';
 
 GutenParser.recursiveToFiles(srcPath, buildPath, function(err){
