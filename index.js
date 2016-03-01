@@ -53,12 +53,20 @@ GutenParser = (function(){
     function _flatten(result, callback){
         var json = {};
         json = result.metadata;   //flatten a bit
+<<<<<<< HEAD
         json.text = (result.text.txt ? result.text.txt : '');
         json.textIndexes = {header: result.text.header, footer: result.text.footer};
         json.buildPath = result.buildPath;
         json.wordcount = (json.text.length >= 10 ? wordcount(json.text) : 0); // add worcount
         if(json.wordcount <= 400){log.error({ERROR:{ title:json.title, id:json.id, author:json.author, count:json.wordcount, msg:'TEXT TOO SHORT'}})};
         if(json.title == undefined){log.error({ERROR:{ title:undefined, author:json.author, id:json.id, msg:'NO TITLE'}})};
+=======
+        json.text = (result.text ? result.text : '');
+        json.buildPath = result.buildPath;
+        json.wordcount = (json.text.length >= 10 ? wordcount(json.text) : 0); // add worcount
+        if(json.wordcount <= 400){log.error({ title:json.title, id:json.id, author:json.author, count:json.wordcount, msg:'TEXT TOO SHORT'})};
+        if(json.title == undefined){log.error({ title:undefined, author:json.author, id:json.id, msg:'NO TITLE'})};
+>>>>>>> 78fe4611dc585e502335fb1b4cb6e589ec07782e
         callback(null, json);
     };
 
@@ -157,6 +165,7 @@ GutenParser = (function(){
 
 })();
 
+<<<<<<< HEAD
 /*
 *   Single file
 *   var object = {
@@ -178,3 +187,23 @@ GutenParser = (function(){
 *       console.log(err);
 *   });
 */
+=======
+/*var object = {
+    rdf: './books/45/pg45.rdf',
+    txt: './books/45/pg45.txt.utf8',
+    buildPath: './test/45.json'
+}
+
+GutenParser.item(object, function(err){
+    console.log(err);
+});
+*/
+
+var srcPath = './cache/';
+var buildPath = './json/';
+
+GutenParser.recursiveToFiles(srcPath, buildPath, function(err){
+    console.log(err);
+});
+
+>>>>>>> 78fe4611dc585e502335fb1b4cb6e589ec07782e
