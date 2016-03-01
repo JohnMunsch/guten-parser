@@ -6,7 +6,7 @@ TxtParser = (function(){
 
   function clean(src, callback){
 
-    const fs = require('fs');
+    const fs = require('graceful-fs');
     const isUtf8 = require('is-utf8'); 
 
 
@@ -29,34 +29,31 @@ TxtParser = (function(){
       '**The Project Gutenberg',
       '** The Project Gutenberg',
       '**The Project Gutenberg Etext',
-      /*'This etext was prepared by',
+      '***START OF THE PROJECT GUTENBERG EBOOK',
+      '*** START OF THE COPYRIGHTED',
+      '***START OF THE PROJECT GUTENBERG',
+      'SERVICE THAT CHARGES FOR DOWNLOAD',
+      'This etext was prepared by',
       'E-text prepared by',
-      'Produced by',
+      //'Produced by',
       'Distributed Proofreading Team',
       '*END THE SMALL PRINT',
-      '***START OF THE PROJECT GUTENBERG',
-      'This etext was produced by',
-      '*** START OF THE COPYRIGHTED',
-      'The Project Gutenberg',
+      //'This etext was produced by',
       'http://gutenberg.spiegel.de/ erreichbar.',
       'Project Runeberg publishes',
       'Beginning of this Project Gutenberg',
-      'Project Gutenberg Online Distributed',
-      'Gutenberg Online Distributed',
-      'the Project Gutenberg Online Distributed',
-      'Project Gutenberg TEI',
-      'This eBook was prepared by',
-      'http://gutenberg2000.de erreichbar.',
+      //'Project Gutenberg Online Distributed',
+      //'Gutenberg Online Distributed',
       'This Etext was prepared by',
+      'This etext was prepared by',
       'Gutenberg Distributed Proofreaders',
       'the Project Gutenberg Online Distributed Proofreading Team',
-      '*SMALL PRINT!',
       'More information about this book is at the top of this file.',
       'tells you about restrictions in how the file may be used.',
       'of the etext through OCR.',
       '*****These eBooks Were Prepared By Thousands of Volunteers!*****',
-      'SERVICE THAT CHARGES FOR DOWNLOAD',
-      'We need your donations more than ever!',*/
+      '*These Etexts Prepared By Hundreds of Volunteers',
+      'We need your donations more than ever!',
       ' *** START OF THIS PROJECT GUTENBERG',
       '****     SMALL PRINT!'
 
@@ -141,6 +138,7 @@ TxtParser = (function(){
 
 
       var headerIndex = null;
+      var headerIndexOld = 0;
     	var footerIndex = null;
       var hasHeader = false;
     	var hasFooter = false;
@@ -149,11 +147,11 @@ TxtParser = (function(){
 
           var line = array[i].toString();
 
-      		if (!hasFooter) {
-      			footerIndex = i+1;
-      		}
+          footerIndex = (!hasFooter ? footerIndex+1 : footerIndex);
+          headerIndex = (!hasHeader ? 0 : headerIndex);
 
         	if (HEADER_MARKERS.some(function(v) { return array[i].indexOf(v) >= 0; })) {
+            headerIndexOld = headerIndex;
             headerIndex = i;
             hasHeader = true;
       		}
@@ -163,15 +161,21 @@ TxtParser = (function(){
     				hasFooter = true;
       		}
 
-
-      		if(i > headerIndex && i < footerIndex && headerIndex > 0 && hasHeader) {
-      			parsedText.push(array[i]);
-      		}
+      		parsedText.push(array[i]);
 
         }
+        if (headerIndex >= footerIndex || footerIndex - headerIndex < 100 ){
+          headerIndex = headerIndexOld;
+        }
+        var cleanedText = parsedText.slice(headerIndex+1, footerIndex-1);
 
-        return callback(err, parsedText.join('\r\n'));
+        var txt = {
+          txt: cleanedText.join('\r\n'),
+          header: headerIndex,
+          footer: footerIndex
+        }
 
+        return callback(err, txt);
     });
   }
 
