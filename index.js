@@ -8,8 +8,8 @@ GutenParser = (function(){
     const bunyan = require('bunyan');
     const wordcount = require('word-count');
 
-    const txtParser = require('./lib/txt-parser.js');
-    const rdfParser = require('./lib/rdf-parser.js');
+    const txtParser = require('./bin/txt-parser.js');
+    const rdfParser = require('./bin/rdf-parser.js');
 
     var log = bunyan.createLogger({
     name: 'gutenParser',
