@@ -5,6 +5,8 @@
 
 This was written explicitly to get the job done - since most of my other code is being written in `node.js`/`javascript` it made sense to stay consistent and write the parser in it as well.
 
+As with nearly all node projects `CD` in to the direcory and run `npm install`
+
 ## Folder structure
 **The directory parser expects two files, in a directory mapped out like this:**
 
