@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <pgterms:ebook rdf:about="ebooks/6039">
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5c7bbe220af64f30ab62ed2f841ea70d">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PR</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/6039/6039.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256598</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-07T13:33:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N10ec5b48363143b3abc2aba18abb72cf">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.html.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:09.979089</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286102</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N932d4ce8bf714cf0bf6e865658419f4a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/98">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Wilkie_Collins"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1889</pgterms:deathdate>
+        <pgterms:alias>Collins, William Wilkie</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1824</pgterms:birthdate>
+        <pgterms:name>Collins, Wilkie</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:10.317079</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114547</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf6085e55558d4f478ceac52979b952b6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.kindle.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4f93585cb4de4f459e0af41cf06e8a8b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:11.472048</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464450</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Ndc54de9148d240e9adcdd15cbd94aef3">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Short Stories</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/23">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Thomas_Hardy"/>
+        <pgterms:name>Hardy, Thomas</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1840</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/4739">
+        <pgterms:name>Lewis, Angelo</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/2716">
+        <pgterms:alias>Edwards, Amelia Blanford</pgterms:alias>
+        <pgterms:alias>Edwards, Amelia B. (Amelia Blanford)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1831</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1892</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Amelia_Edwards"/>
+        <pgterms:name>Edwards, Amelia Ann Blanford</pgterms:name>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N05b01ffa99f543078cd53c75633cdb4c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Short stories, English</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.html.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N44547c2369724555a61942cfd9e3f9ee">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:10.045073</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286102</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N33e350d9fdd1490cbf470f35e00ea864">
+        <rdf:value>English fiction -- 19th century</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/6039/6039.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne77f229b5edc480cac31d3c8bddec3da">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-07T13:33:44</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99988</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf0fe8131d9094bb99dcd791f8a5213a5">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/618">
+        <pgterms:name>Reade, Charles</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1814</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_Reade"/>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N3c5d1b7f78fb45ebbe489db559da0baa">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:tableOfContents>The box tunnel / Charles Reade -- Minions of the moon / F. W. Robinson -- The four-fifteen express / Amelia B. Edwards -- The wrong black bag / Angelo Lewis -- The three strangers / Thomas Hardy -- Mr. Lismore and the widow / Wilkie Collins -- The philosopher in the apple orchard / Anthony Hope.</dcterms:tableOfContents>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/4738">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1901</pgterms:deathdate>
+        <pgterms:name>Robinson, F. W. (Frederick William)</pgterms:name>
+        <pgterms:alias>Robinson, Frederick W. (Frederick William)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1830</pgterms:birthdate>
+        <pgterms:alias>Robinson, Frederick William</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:ctb>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464447</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:12.615026</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbd185fa7e5544abcb9d3b52295ef396b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-01</dcterms:issued>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</pgterms:downloads>
+    <dcterms:title>Stories by English Authors: England</dcterms:title>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N8a6e56d26ad54ae6b159c003f588f36d">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb4cebf32e4104f7f87b813dcf4d4156b">
+        <rdf:value>England -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N09b20ae170a84cc8a164bc601a795e3b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:04:04.804744</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15477</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:09.661082</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na949e049a65542068a30eb2e047f25d4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256568</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6039.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/6039"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-03T03:29:10.210068</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9b121aa197a04989b1e8048496b0d709">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114546</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:ctb>
+      <pgterms:agent rdf:about="2009/agents/63">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Anthony_Hope"/>
+        <pgterms:name>Hope, Anthony</pgterms:name>
+        <pgterms:alias>Hawkins, Anthony Hope</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:ctb>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Wilkie_Collins">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Anthony_Hope">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Amelia_Edwards">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_Reade">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Thomas_Hardy">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

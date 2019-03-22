@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+>
+  <pgterms:ebook rdf:about="ebooks/35630">
+    <marcrel:cmm>
+      <pgterms:agent rdf:about="2009/agents/3767">
+        <pgterms:name>Morley, John</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1838</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/John_Morley,_1st_Viscount_Morley_of_Blackburn"/>
+        <pgterms:alias>Morley, Viscount</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:cmm>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N234fcf1db70447c89a63112204830437">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Criticism (Philosophy)</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N6dc42dc14f7a4f95ac21c76ea64813fb">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/37848">
+        <pgterms:name>Fleming, William F.</pgterms:name>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630-0.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne2999e4d530f42b99440878f8bfab9c2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460332</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:34:52</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N825f7f8ed87643529d93f8c37cbde87c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Philosophy -- Dictionaries</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/913">
+        <pgterms:alias>Arouet, Francois Marie</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Voltaire"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1694</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Voltaire"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1778</pgterms:deathdate>
+        <pgterms:name>Voltaire</pgterms:name>
+        <pgterms:alias>Arouet, François Marie</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35630.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">196201</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfca58669cc3244ef8dadd45affd23491">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-17T04:32:15.106700</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179699</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:36:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N01539edb91af46568cc14ed30e928856">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne5ebb99fe52b4733aaca1ac8bf2fbedd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb69d9fc4a9ff4e49b049a4a656d6b625">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>B</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35630.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">815349</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N660d0eb82ef14efbb3e25358996b8986">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-17T04:32:18.694631</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">459977</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N896b79de094a41708184b029e1c45615">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:35:50</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>A Philosophical Dictionary, Volume 10</dcterms:title>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf67f22147c6243a5890fce3aab288a34">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35630.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-17T04:32:16.955671</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6a54129324e44c2da17ccc654c03b56c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1304747</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460081</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:35:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nacfc382fcd2d49eb8ea8325e9cee060b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:cmm>
+      <pgterms:agent rdf:about="2009/agents/37847">
+        <pgterms:alias>Leigh, Oliver H. G.</pgterms:alias>
+        <pgterms:name>Leigh, Oliver Herbrand Gordon</pgterms:name>
+      </pgterms:agent>
+    </marcrel:cmm>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-29</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630-8.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:36:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N13f9c9a429614f5991d92e302ef01425">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180004</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N399734f19a724c1e8734241e8b70cfd2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:cmm>
+      <pgterms:agent rdf:about="2009/agents/838">
+        <pgterms:alias>Smollett, Tobias George</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Tobias_Smollett"/>
+        <pgterms:name>Smollett, T. (Tobias)</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1771</pgterms:deathdate>
+        <pgterms:alias>Smollet, T. (Tobias)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1721</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:cmm>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35630.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N314d561913d141b6aa8e153f25ce99ce">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16744</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:27:18.110227</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35630.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-17T04:32:14.761699</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544871</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N538b25c0fc904d63a56fe1e91c723c92">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630-h/35630-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">502114</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:34:58</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb45bc6465ccb45a2bed7e957da554eb8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2d1b27c256264df393292f59357e8426">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180259</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:36:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbcd4baeb991e4807a74267d03185f335">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35630/35630-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf504b78626dc4154807322f89ec511b4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35630"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">616728</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N60db265ea5cb4da9bd634bd0d7a8c3cc">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T09:36:34</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Voltaire">
+    <dcterms:description>fr.wikipédia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/John_Morley,_1st_Viscount_Morley_of_Blackburn">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Tobias_Smollett">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Voltaire">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <pgterms:ebook rdf:about="ebooks/39493">
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/93">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Plato"/>
+        <pgterms:name>Plato</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-348</pgterms:deathdate>
+        <pgterms:alias>Πλάτων</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-428</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/39493/pg39493.cover.medium.jpg">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-19T05:11:02.375551</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15250</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N351945901c7b4613a15696e843dbc72b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39493.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-19T05:10:59.701612</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf52eba0b216b4ff893ae07b47397c10e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253058</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:alternative>Republic, Volume 2</dcterms:alternative>
+    <pgterms:marc901>file:///public/vhost/g/gutenberg/html/files/39493/39493-h/images/cover.jpg</pgterms:marc901>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N3c0a8aea5668477497aa5f04d38ad845">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N58e0c5d81538435b8b2d134f85990a64">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Political science -- Early works to 1800</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39493/39493-h/39493-h.htm">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N73cc4908d37747a19269e9910c30f410">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">453455</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T13:40:14</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39493/39493-0.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449920</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T13:40:10</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0b8928c0b8294ac1a46fbceb789cb2ed">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39493/39493-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T13:40:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2ba4353bfdb149dab66bcdc6836aada8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228192</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9bacd7cf55a44226a1b78317b95d651d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39493.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13799</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:30:20.519140</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3c1f97dca35f484382476d3f5bc68b4b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39493.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">788713</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7ea7590073b347dfa19366e1dcb0e338">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-19T05:11:00.999609</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nd41795b2ad4e422fbe49e7c34ce9e50b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Justice -- Early works to 1800</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/39493/pg39493.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2490</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb761665f2fba4777ba7f03bfbc4c1edc">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-19T05:11:02.355542</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf4094863ec6d472daa446fb9ff4f8192">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Utopias -- Early works to 1800</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-04-20</dcterms:issued>
+    <dcterms:title>Πολιτεία, Τόμος 2</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/7740">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1870</pgterms:birthdate>
+        <pgterms:alias>Γρυπάρης, Ιωάννης</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://el.wikipedia.org/wiki/%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B7%CF%82_%CE%93%CF%81%CF%85%CF%80%CE%AC%CF%81%CE%B7%CF%82"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1942</pgterms:deathdate>
+        <pgterms:name>Grypares, I. N. (Ioannes N.)</pgterms:name>
+        <pgterms:alias>Gryparis, Ioannis</pgterms:alias>
+        <pgterms:alias>Grypares, Ioannes N.</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N74c83a49b702470eb691ec15fbfff3e1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>JC</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39493.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd24a92406aeb4e1c81b1dfc1eba6ea26">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253057</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-19T05:10:59.371609</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/39493.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-19T05:11:02.332554</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">788526</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Neb00c688a47b49d4937b88aa082d6def">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N310dd30435ce47b3bcff753e76cd0e9d">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">el</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/39493/39493-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7cc1c1ddeedb45f5b5f30483e420459b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf78a9dcdb3014b3caad50f2b2d8e9664">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117620</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/39493"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-04-20T13:40:14</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Plato">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://el.wikipedia.org/wiki/%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B7%CF%82_%CE%93%CF%81%CF%85%CF%80%CE%AC%CF%81%CE%B7%CF%82">
+    <dcterms:description>el.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

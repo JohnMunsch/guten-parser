@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <pgterms:ebook rdf:about="ebooks/3566">
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne6a9311c33714c00a99b120bbce90475">
+        <rdf:value>Private secretaries -- France -- Biography</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbe8ffde458784a789f16fed0a12db893">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56802</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:41.715111</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0611c687e0424b3183c13f4dc37ec558">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Napoleon I, Emperor of the French, 1769-1821 -- Contemporaries</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-12-01</dcterms:issued>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf28be36980634f668cd01c426dbe6dad">
+        <rdf:value>Napoleon I, Emperor of the French, 1769-1821 -- Relations with private secretaries</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/1227">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Louis_Antoine_Fauvelet_de_Bourrienne"/>
+        <pgterms:name>Bourrienne, Louis Antoine Fauvelet de</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1769</pgterms:birthdate>
+        <pgterms:alias>De Bourrienne, Louis Antoine Fauvelet</pgterms:alias>
+        <pgterms:alias>Fauvelet de Bourrienne, Louis Antoine</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1834</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12954</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:02:19.571518</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8542a74358c943c1b65d38ca682e76f9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N47b12fa646754d4f846cf6cb3e1d58a7">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.html.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138892</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:41.611198</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd6cca11cca2e4b259ad8cc0cac58f09e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/3566/3566.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132003</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-29T13:37:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N20742335205243e0934772209307c062">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132004</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:41.491122</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N715831341f9b46288ac4b87327ee8227">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.html.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138892</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:41.644108</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf7d2c4225a404e589a4cb9795417f387">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:41.761101</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naa1d309bb64f450f8874655af45aa0dc">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56802</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:42.709084</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243026</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N510d328ae8d24f2dae1dcdcae65b3354">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/3566.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-02T03:20:42.233093</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243038</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb336f8314d96497f895edd5a055d207a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/41682">
+        <pgterms:name>Phipps, Ramsay Weston</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1923</pgterms:deathdate>
+        <pgterms:alias>Phipps, R. W. (Ramsay Weston)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1838</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N535fcc3ba8de4ecb90ec8ad95e8f0657">
+        <rdf:value>Bourrienne, Louis Antoine Fauvelet de, 1769-1834</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne3ffd5e3f8204376b403b6cf70594b13">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Napoleon I, Emperor of the French, 1769-1821</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:description>Translated from: Mémoires sur Napoléon, le Directoire le Consulat, l'Empire et la Restauration.</dcterms:description>
+    <dcterms:title>Memoirs of Napoleon Bonaparte — Volume 16</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ncd2e66b9151143b88e69eaa2fe2245cc">
+        <rdf:value>DC</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N0c33060e621a4b8f9ce4715902eff864">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/3566/3566.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51442</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbe0c49edbd4b462e91835afaa50f3c6d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/3566"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd99726dea6d148028af572bd7cc7e031">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-29T13:37:58</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Louis_Antoine_Fauvelet_de_Bourrienne">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

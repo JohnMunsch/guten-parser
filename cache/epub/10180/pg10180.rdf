@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <pgterms:ebook rdf:about="ebooks/10180">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6b95e48a78ed4fdeb737275103227943">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>M</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6dbca246e7f9497b817837e48400651e">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:description>Recorded March 5, 1926.</dcterms:description>
+    <marcrel:prf>
+      <pgterms:agent rdf:about="2009/agents/3357">
+        <pgterms:name>Flesch, Carl</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1873</pgterms:birthdate>
+        <pgterms:alias>Flesch, Karl</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1944</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:prf>
+    <marcrel:cmp>
+      <pgterms:agent rdf:about="2009/agents/37064">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1904</pgterms:deathdate>
+        <pgterms:alias>Dvorak, Antonin</pgterms:alias>
+        <pgterms:name>Dvorák, Antonín</pgterms:name>
+        <pgterms:alias>Dvorzhak, Antonin</pgterms:alias>
+        <pgterms:alias>Dvorák, Antonín Leopold</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1841</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:cmp>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/10180/10180-m/10180-m-readme.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/10180"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-11-22T09:05:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd5e952c030574a188b838f656e7c81e3">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21352</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:prf>
+      <pgterms:agent rdf:about="2009/agents/40482">
+        <pgterms:name>Ruhrseitz, Kurt</pgterms:name>
+      </pgterms:agent>
+    </marcrel:prf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-11-01</dcterms:issued>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</pgterms:downloads>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N601b64e9539341309f1741a50769833a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Sound</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:title>Slavonic Dance, No. 1</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/10180/10180-m/10180-m-001.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/10180"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8b8686aeafe648dba51f222e5f6834ae">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-11-22T01:44:42</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2488218</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N58ec5bacacc843a4a498463b080e608c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Violin and piano music, Arranged</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/10180.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6478</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:07:13.960558</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/10180"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4c7ccc2e7e1c4778860f567f80e08e45">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <marcrel:arr>
+      <pgterms:agent rdf:about="2009/agents/3773">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Fritz_Kreisler"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:birthdate>
+        <pgterms:alias>Kreisler, F. (Fritz)</pgterms:alias>
+        <pgterms:name>Kreisler, Fritz</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:arr>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Fritz_Kreisler">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

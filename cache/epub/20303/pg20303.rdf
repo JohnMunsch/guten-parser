@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <pgterms:ebook rdf:about="ebooks/20303">
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Na772011bc5654479a27c0e277ad5fc5b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20303.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:14:57.801740</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4c9b2920fd23446dadad131181c41c6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14341</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20303.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1330843</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-10T03:10:30.176661</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd071750a21f84679863f82875515408c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20303/20303-8.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-14T09:28:06</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndfb8c85a05b9469fbb6214e8e49cfdb0">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245266</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N972e27d8732d4e80a516913280e76774">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N82b115b072574d6a9d0cb32c619f9c58">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20303/20303-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N32d2f792f50f4f508ad6bd328f5aec57">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-14T09:28:06</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276444</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2ef51e024e1f43d59cc4baee4bea5f65">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/3022">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1941</pgterms:deathdate>
+        <pgterms:alias>Harrington, Joseph F.</pgterms:alias>
+        <pgterms:name>O'Brien, Edward Joseph Harrington</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Edward_Joseph_Harrington_O'Brien"/>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20303.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-10T03:10:26.260744</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0368f52544fa4a148920559209c92817">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302669</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20303.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1285257</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5f2644ac8c1443f0abb86bf8f20faa12">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-10T03:10:34.054604</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20303.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-10T03:10:25.708739</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333487</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfd8daa4fb1ce4873a8d3cb00607a27fd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N9b587a7c91d54f209eb0d80a5846188b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Short stories, American</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7d0eea4f28614a29801cfc7ef071a556">
+        <rdf:value>American fiction -- 20th century</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20303/20303.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9d7e4a4db1fa4ca5b70d4b733637e6af">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4cc1dd3d37e6485ebd242234ad766d62">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245137</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-14T09:28:06</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:tableOfContents>The water-hole / Maxwell Struthers Burt -- The wake / Donn Byrne -- Chautonville / Will Levington Comfort -- La dernière mobilisation / W.A. Dwiggins -- The citizen / James Francis Dwyer -- Whose dog? / Frances Gregg -- Life / Ben Hecht -- T.B. / Fannie Hurst -- Mr. Eberdeen's house / Arthur Johnson -- Vengeance is mine / Virgil Jordan -- The weaver who clad the summer / Harris Merton Lyon -- -- Heart of youth / Walter J. Muilenburg -- The end of the path / Newbold Noyes -- The whale and the grasshopper / Seumas Obrien -- In Berlin / Mary Boyle O'Reilly -- The waiting years / Katharine Metcalf Roof -- Zelig / Benjamin Rosenblatt -- The survivors / Elsie Singmaster -- The yellow cat / Wilbur Daniel Steele -- The bounty-jumper / Mary Synon.</dcterms:tableOfContents>
+    <dcterms:title>The Best Short Stories of 1915, and the Yearbook of the American Short Story</dcterms:title>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20303/20303.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-14T09:27:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N21c1b0c749514268ba792cabe6154708">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642524</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20303/20303-h/20303-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-14T09:27:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">811805</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncbf5dcce82ff4b84afe79a94e3c35581">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/20303.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642552</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-10T03:10:24.669770</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5142cb59056246428716e0f8c4913b83">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/20303/20303-8.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-14T09:27:20</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/20303"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642517</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc1dcba040d5c4a83a7225ae2fecc6721">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nf6a5985dc4fd4a24a981125e17fa3c90">
+        <rdf:value>PS</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-07</dcterms:issued>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Edward_Joseph_Harrington_O'Brien">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

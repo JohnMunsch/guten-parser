@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+>
+  <pgterms:ebook rdf:about="ebooks/30201">
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/30201.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279954</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:05:55.111740</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6a529980fa704fcc8911cdd138db7b4f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">769</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/30201.epub.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N097cab43378b4ca3a154f57acc10c73f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154565</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:06:00.513650</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/30201.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4e6dffe16419498dac96b365a6df6b51">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:23:01.559552</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14684</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc010>32015550</pgterms:marc010>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/30201/30201.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279982</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nda249e4c288447a291ca9f6a387cfef7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-10-06T16:08:34</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/3026">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1536</pgterms:deathdate>
+        <pgterms:name>Erasmus, Desiderius</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Erasmus"/>
+        <pgterms:alias>Erasmus, of Rotterdam</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1469</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/30201.kindle.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">575725</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:06:06.541565</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N327a0ed711b2499997697a72dda5d321">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc901>http://www.gutenberg.org/files/30201/30201-h/images/titlepage.jpg</pgterms:marc901>
+    <pgterms:marc901>file:///public/vhost/g/gutenberg/html/files/30201/30201-h/images/titlepage.jpg</pgterms:marc901>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nc45e1f451a534115a53673d4ab50ea57">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Banned Books from Anne Haight's list</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/30201/30201-h/30201-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-20T16:43:24</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc074daea5a764623a2c39e241bd9ff24">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327811</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc901>http://www.gutenberg.org/files/30201/30201-h/images/frontispiece.jpg</pgterms:marc901>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:alternative>Moriae encomium. English</dcterms:alternative>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/30201/pg30201.cover.small.jpg">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2527</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:06:06.583556</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc445ba9d3ded45278ecafae8dd5530ce">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-06</dcterms:issued>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N3e2c7b3230fe43d6b255f167dd93754f">
+        <rdf:value>PA</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/30201/30201-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N601867ae1c9c4ed7b2b705ed4924216c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N12b1ee25e1ca4e3e8552e8e026ff4a9f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-20T16:43:58</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11027760</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/cache/epub/30201/pg30201.cover.medium.jpg">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nca114f38c2064bb3b1aa8c2e61401253">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11915</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:06:06.620562</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6177395249ed40e3b9c55894036873dd">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/30201.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:06:00.296665</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7802194</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf0d4fb32a28b453ead0058e7eba4bb77">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Neb0f351fdaaf4df296719a2c2de8faab">
+        <rdf:value>Folly -- Early works to 1800</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <marcrel:ill>
+      <pgterms:agent rdf:about="2009/agents/24893">
+        <pgterms:alias>Holbein, Hans, der Jüngere</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1543</pgterms:deathdate>
+        <pgterms:name>Holbein, Hans</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Hans_Holbein_the_Younger"/>
+        <pgterms:webpage rdf:resource="http://de.wikipedia.org/wiki/Hans_Holbein_der_J%C3%BCngere"/>
+        <pgterms:alias>Holbein, Hans, the Younger</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:ill>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/30201.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15812442</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-15T02:06:05.419600</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne5fb139e89ff4d4f951647e249fdc571">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>In Praise of Folly
+Illustrated with Many Curious Cuts</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/30201/30201.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/30201"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N597669cdcbe041529d25fbb4ebf12b93">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-10-06T16:09:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110123</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N917e896e7ac549749b36259fc992ecb7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N93691b6ce44744c496ea212b4bfb0bc4">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Hans_Holbein_the_Younger">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Erasmus">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://de.wikipedia.org/wiki/Hans_Holbein_der_J%C3%BCngere">
+    <dcterms:description>de.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -4,16 +4,15 @@
   "description": "Parse Gutenberg project cache to json for injest to mongodb and elasticsearch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node --max-old-space-size=4096 index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^1.5.2",
-    "bunyan": "^1.7.0",
     "graceful-fs": "^4.1.3",
-    "is-utf8": "^0.2.1",
-    "lodash": "^4.5.1",
+    "progress": "^2.0.3",
+    "recursive-readdir": "^2.2.2",
     "word-count": "git+https://github.com/unsalted/word-count.git",
     "xml2js": "^0.4.16"
   }

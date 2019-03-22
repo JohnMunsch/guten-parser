@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+>
+  <pgterms:ebook rdf:about="ebooks/35704">
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35704.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13173</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-29T05:27:21.931159</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4f78b13f479c4647b33953922d6b22aa">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N4a5ce5161cb94c5d82a799d8b7acffa6">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/8801">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Carolyn_Sherwin_Bailey"/>
+        <pgterms:name>Bailey, Carolyn Sherwin</pgterms:name>
+        <pgterms:alias>Hill, Carolyn Sherwin Bailey</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1961</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35704.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T01:00:19.692542</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">773698</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na021d7b7c2ba4f32b0301f7ecf4d146a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35704/35704-h/35704-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T08:05:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8b7f85d5285449fba938442714901b3f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417990</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35704/35704.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5209a71a093443fd903ffcfed1ab9f92">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T08:05:52</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">367483</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne8c5933da81445c79d6464fe26cb3c98">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Mythology, Classical -- Juvenile literature</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35704.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndac5a58b005d4f4aa901a5811acbe579">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">674891</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T01:00:23.653439</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N97672cd9d296410895f4270945680235">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PZ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <marcrel:ill>
+      <pgterms:agent rdf:about="2009/agents/37845">
+        <pgterms:name>Burd, C. M. (Clara Miller)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1873</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</pgterms:deathdate>
+        <pgterms:alias>Burd, Clara Miller</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:ill>
+    <dcterms:title>Wonder Stories: The Best Myths for Boys and Girls</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35704.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T01:00:19.974507</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">161233</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naf266cac88bf47adbd3f4a8d7ade31f7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc010>20012815</pgterms:marc010>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-29</dcterms:issued>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nfcc141172f1143deb2db614d073b1460">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35704.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884320</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N14bca37e82954829a696ab0beda9d7dd">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T01:00:21.926462</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/35704.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-18T01:00:19.179523</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">367455</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4b58c129b6f844018131189027e8a62a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35704/35704-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5ae793012a214e1ca0826e4daf6109c4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T08:05:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N10dbd712e339479bb0ac55b51ddbd954">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">758665</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/35704/35704.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N49ca9d9956ee4c5c9036cf0e62025d51">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/35704"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138071</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-03-29T08:05:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N45cd118afffb4f5fb0d19ea2243a627f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:tableOfContents>How the myths began -- What Prometheus did with a bit of clay -- The paradise of children / Nathaniel Hawthorne -- What became of the giants -- How vulcan made the best of things -- How Orion found his sight -- The wonders Venus wrought -- Where the Labyrinth led -- How Perseus conquered the sea -- Pegasus, the horse who could fly -- How Mars lost a battle -- How Minerva built a city -- Cadmus, the alphabet king -- The picture Minerva wove -- The hero with a fairy godmother -- The pygmies / Nathaniel Hawthorne -- The horn of plenty -- The wonder the frogs missed -- When Phaeton's chariot ran away -- When Apollo was herdsman -- How Jupiter granted a wish -- How Hyacinthus became a flower -- How King Midas lost his ears -- How Mercury gave up his tricks -- A little errand girl's new dress -- When Proserpine was lost -- The ploughman who brought famine -- The bee man of Arcadia -- When Pomona shared her apples -- How Psyche reached mount olympus -- How Melampos fed the serpent -- How a huntress became a bear -- The adventure of Glaucus -- The winning of the golden fleece -- Medea's cauldron -- How a golden apple caused a war -- How a wooden horse won a war -- The cyclops / Alfred Church -- Glossary.</dcterms:tableOfContents>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Carolyn_Sherwin_Bailey">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
